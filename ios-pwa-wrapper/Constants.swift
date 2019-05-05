@@ -9,15 +9,13 @@
 import UIKit
 
 // Basic App-/WebView-configuration
-let appTitle = "iOS PWA Wrapper"
-let webAppUrl = URL(string: "https://www.leasingrechnen.at")
-let allowedOrigin = "leasingrechnen.at"
+let appTitle = "Budgets"
+let webAppUrl = URL(string: "https://dev.budgets.money")
+let allowedOrigin = "my.budgets.money"
 let menuButtonTitle = NSLocalizedString("menu", comment: "")
-let menuButtonJavascript = """
-    $('.button-collapse').sideNav('show');
-"""
+let menuButtonJavascript = ""
 let useUserAgentPostfix = true
-let userAgentPostfix = "iOSApp"
+let userAgentPostfix = "Budgets-ios"
 let useCustomUserAgent = false
 let customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.2.10 (KHTML, like Gecko) Mobile/15A8401"
 
