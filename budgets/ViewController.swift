@@ -264,7 +264,6 @@ class ViewController: UIViewController {
         }.resume()
     }
     
-    
     func openDocument(url: URL) {
         UINavigationBar.appearance().barTintColor = .green
         let documentController = UIDocumentInteractionController.init(url: url)
